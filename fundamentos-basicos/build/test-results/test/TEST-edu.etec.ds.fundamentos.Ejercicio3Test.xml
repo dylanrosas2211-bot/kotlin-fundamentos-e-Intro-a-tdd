@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="edu.etec.ds.fundamentos.Ejercicio3Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-15T14:51:14" hostname="213-18" time="0.04">
+  <properties/>
+  <testcase name="testFuncionSinParametros()" classname="edu.etec.ds.fundamentos.Ejercicio3Test" time="0.04"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

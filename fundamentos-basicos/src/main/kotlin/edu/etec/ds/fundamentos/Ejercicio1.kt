@@ -1,7 +1,7 @@
 package edu.etec.ds.fundamentos
 
 fun suma(a: Int, b: Int): Int {
-    TODO("Implementar suma de dos enteros")
+    return a + b
 }
 
 fun resta(a: Int, b: Int): Int {
