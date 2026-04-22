@@ -5,39 +5,44 @@ fun suma(a: Int, b: Int): Int {
 }
 
 fun resta(a: Int, b: Int): Int {
-    TODO("Implementar resta de dos enteros")
+    return a - b
+
 }
 
 fun multiplicacion(a: Int, b: Int): Int {
-    TODO("Implementar multiplicacion de dos enteros")
+    return a * b
 }
 
 fun division(a: Int, b: Int): Int {
-    TODO("Implementar division entera de dos enteros")
+    return a / b
 }
 
 fun modulo(a: Int, b: Int): Int {
-    TODO("Implementar modulo de dos enteros")
+    val resultado =  a % b
+    return resultado
 }
 
 fun esMayorQue(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a es mayor que b")
+    return a >= b
 }
 
 fun esMenorQue(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a es menor que b")
+    return a <= b
 }
 
 fun sonIguales(a: Int, b: Int): Boolean {
-    TODO("Retornar true si a y b son iguales")
+    return a == b
 }
 
 fun esPar(numero: Int): Boolean {
-    TODO("Retornar true si el numero es par")
+    val resultado = numero  % 2 == 0
+    return resultado
+
 }
 
 fun esImpar(numero: Int): Boolean {
-    TODO("Retornar true si el numero es impar")
+    val resultado = numero  % 2 != 0
+    return resultado
 }
 
 fun valorAbsoluto(numero: Int): Int {
