@@ -18,7 +18,7 @@ fun division(a: Int, b: Int): Int {
 }
 
 fun modulo(a: Int, b: Int): Int {
-    val resultado =  a % b
+    val resultado = a % b
     return resultado
 }
 
@@ -35,19 +35,23 @@ fun sonIguales(a: Int, b: Int): Boolean {
 }
 
 fun esPar(numero: Int): Boolean {
-    val resultado = numero  % 2 == 0
+    val resultado = numero % 2 == 0
     return resultado
 
 }
 
 fun esImpar(numero: Int): Boolean {
-    val resultado = numero  % 2 != 0
+    val resultado = numero % 2 != 0
     return resultado
 }
 
 fun valorAbsoluto(numero: Int): Int {
-    TODO("Retornar el valor absoluto del numero")
-    val 
+
+    if (numero >= 0) {
+        return numero
+    }
+    return -numero
+
 }
 
 fun maximo(a: Int, b: Int): Int {
