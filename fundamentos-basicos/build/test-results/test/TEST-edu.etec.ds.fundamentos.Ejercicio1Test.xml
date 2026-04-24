@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="edu.etec.ds.fundamentos.Ejercicio1Test" tests="1" skipped="0" failures="0" errors="0" timestamp="2026-04-22T14:03:40" hostname="213-20" time="0.07">
-  <properties/>
-  <testcase name="testVerificarImpar()" classname="edu.etec.ds.fundamentos.Ejercicio1Test" time="0.07"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
