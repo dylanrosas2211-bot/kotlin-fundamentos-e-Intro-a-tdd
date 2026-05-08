@@ -55,9 +55,9 @@ fun valorAbsoluto(numero: Int): Int {
 }
 
 fun maximo(a: Int, b: Int): Int {
-    TODO("Retornar el mayor entre a y b")
+    return if (a > b) a else b
 }
 
 fun minimo(a: Int, b: Int): Int {
-    TODO("Retornar el menor entre a y b")
+    return if (a < b) a else b
 }
