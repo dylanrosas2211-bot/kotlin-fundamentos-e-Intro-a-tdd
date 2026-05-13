@@ -57,6 +57,7 @@ class Ejercicio3Test {
     fun testFuncionLambda() {
         val duplicar = { x: Int -> x * 2 }
         assertEquals(10, duplicar(5))
+
     }
 
     @Test
@@ -81,11 +82,13 @@ class Ejercicio3Test {
     fun testFuncionInfix() {
         val resultado = 5.esMayorQue(3)
         assertEquals(true, resultado)
+
     }
 
     @Test
     fun testFuncionVarargs() {
         val resultado = sumarTodos(1, 2, 3, 4, 5)
         assertEquals(15, resultado)
+
     }
 }
