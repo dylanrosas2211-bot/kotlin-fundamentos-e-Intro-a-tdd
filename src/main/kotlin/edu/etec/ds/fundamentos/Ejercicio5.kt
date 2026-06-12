@@ -1,11 +1,20 @@
 package edu.etec.ds.fundamentos
 
 fun sumarHasta(n: Int): Int {
-    TODO("Sumar todos los numeros desde 1 hasta n (inclusive)")
+    var acumulador = 0
+    for (i in 1..n) {
+        acumulador = acumulador + i
+    }
+    return acumulador
 }
-
 fun contarPares(inicio: Int, fin: Int): Int {
-    TODO("Contar numeros pares en el rango [inicio, fin]")
+    var contador = 0
+    for (i in inicio..fin) {
+        if (i % 2 == 0) {
+            contador++
+        }
+    }
+    return contador
 }
 
 fun fibonacci(n: Int): Int {
@@ -28,7 +37,7 @@ fun sumarLista(numeros: List<Int>): Int {
     TODO("Sumar todos los elementos de la lista")
 }
 
-fun inverter(texto: String): String {
+fun invertir(texto: String): String {
     TODO("Invertir la cadena de texto")
 }
 

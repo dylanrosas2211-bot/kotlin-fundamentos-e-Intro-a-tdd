@@ -90,7 +90,7 @@ class Ejercicio5Test {
 
     @Test
     fun testInvertirCadena() {
-        val resultado = inverter("Kotlin")
+        val resultado = invertir("Kotlin")
         assertEquals("niltoK", resultado)
     }
 
